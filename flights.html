@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>إدخال الرحلات</title>
+</head>
+<body>
+  <h2>نموذج إدخال الرحلات</h2>
+  <form id="flight-form">
+    <input type="date" name="Date" required />
+    <input type="text" name="FLT.NO" placeholder="رقم الرحلة" />
+    <input type="text" name="Time on Chocks" placeholder="Time on Chocks" />
+    <input type="text" name="Time open Door" placeholder="Time open Door" />
+    <input type="text" name="Time start Cleaning" placeholder="Time start Cleaning" />
+    <input type="text" name="Time complete Cleaning" placeholder="Time complete Cleaning" />
+    <input type="text" name="Time ready Boarding" placeholder="Time ready Boarding" />
+    <input type="text" name="Time start Boarding" placeholder="Time start Boarding" />
+    <input type="text" name="Time complete Boarding" placeholder="Time complete Boarding" />
+    <input type="text" name="Time Close Door" placeholder="Time Close Door" />
+    <input type="text" name="Time off Chocks" placeholder="Time off Chocks" />
+    <textarea name="NOTES" placeholder="ملاحظات"></textarea>
+    <button type="submit">حفظ</button>
+  </form>
+
+  <script src="js/airtable-api.js"></script>
+</body>
+</html>
